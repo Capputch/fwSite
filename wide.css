@@ -1,0 +1,22 @@
+/* header styling */
+.headpic { 
+  width: 910px; 
+  height: 540px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* main styling */
+main { 
+  margin: 0 3rem 0;
+}
+
+/* index styling */
+.columns {
+  flex-flow: row;
+  align-content: space-between;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <!-- Required meta tags -->
+	<meta charset="utf-8">
+	
+	<!-- Link to my own CSS styling -->
+	<link rel="stylesheet" href="./index.css">
+	<link rel='stylesheet' media='screen and (max-width: 900px)' href='./narrow.css'/>
+	<link rel='stylesheet' media='screen and (min-width: 901px)' href='./wide.css' />
+
+	<!-- Necessary scripts -->
+	<script src="./event.js"></script>
+
+	<title>Contact</title>
+	
+</head>
+
+<body> 
+<div class="container">
+	<div class="sticky">
+		<h3>Warning! Website still in Construction</h3>
+	</div>
+	<header>
+			<h1 class="name">Francoise Walot</header>
+			<img class="headpic" src= "./img/chosesgeniales.jpg" alt="Francoise directs an actor during a rehearsal of the play Every Brilliant Thing">
+			<h1 class="motto">Voice coach. Director. Actress. Playwright.</h1>
+		<nav>
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./about.html">About</a></li>
+				<li><a href="./calendar.html">Calendar</a></li>
+				<li><a class="current" href="./contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+<main> 
+	<h2> Get in touch</h2>
+	<!-- Make form -->
+	<form name="contact" method="post" action="#">
+	<!-- Make input asking for user's name -->
+	<label class="question" for="name">Your name:</label>
+	<input type="text" name="name" placeholder="Enter name" size="50">
+	<!-- Make input asking for user's email address -->
+	<label class="question" for="email">Email address:</label>
+	<input type="text" name="email" placeholder="Enter email address so I can get back to you" size="50">
+	<!-- Make input for message box -->
+	<label class="question" for="message">Message:</label>
+	<input type="text" name="message" placeholder="Enter your message here" size="50">
+	<!-- Make submit button -->
+	<input class="submitBtn" id="submitBtn" type="submit" value="Click here to submit">
+	</form>
+</main>
+<footer>
+	<p>Designed with love in 2020 with the support of many cups of tea</p>
+	</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,182 @@
+/* colors 
+black: #040403
+light brown: #63523F
+dark brown: #25221D
+dark grey: #938F87
+slate: #797b84
+light grey: #C4C2BB
+gold: #B1863B
+yellow: #e8ba40
+*/
+
+/* whole page styling */
+html { 
+    font-size: 100%; 
+}
+
+body {
+    font-family: "Lucida Console", sans-serif;
+    background-color: #FFF;
+    margin: 0;
+}
+
+main {
+    background-color:#C4C2BB;
+    margin: 0; 
+} 
+
+/* footer styling */
+footer { 
+    text-align: center;
+    padding: 1rem;
+}
+
+/* sticky */
+div .sticky { 
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    padding: 1rem;
+    background-color: #e8ba40;
+    color: #040403;
+    text-align: center;
+    z-index: 5;
+}
+/* header styling */
+.name {
+    text-align: center;
+    position: relative;
+    color: #040403;
+  }
+
+header {
+    position: relative;
+    text-align: center;
+    margin: 0;
+  }
+
+.motto { 
+    text-align: center;
+    color:#040403;
+    display: block;
+    margin: 1rem;
+}
+
+nav { 
+    background-color: #B1863B;
+    color: #25221D;
+    padding: 0.8rem;
+    border: 0.2rem;
+    margin: 0; 
+    max-width: 100%;
+    
+}
+
+nav ul { 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+
+li a{
+    font-size: 1.5rem;
+    border: 0.2rem;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: #25221D;
+}
+
+li a:hover { 
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    border: 0.2rem solid #63523F;
+}
+
+li a:active {
+    color: #C4C2BB;
+    border: 0.2rem solid #63523F;
+}
+
+nav .current { 
+    background-color: #252212;
+    color: #e8ba40;
+}
+
+
+/* Column one and two styling */
+main .columns { 
+    display: flex;
+    text-align: center;
+    margin: 0;
+    align-content: flex-end;
+    vertical-align: auto;
+}
+ .columnOne {
+    flex: 1 1 0; 
+ }
+
+.columnTwo { 
+    flex: 1 1 0; 
+
+}
+
+/* blockquote styling */
+blockquote{
+    text-align: center;
+    background-color:#844337;
+    font-size: 1.2rem;
+    padding: 1rem; 
+}
+
+/* about page styling */
+
+/* article page styling */
+article { 
+    padding: 1rem;
+}
+
+/* calendar page styling */
+.warning { 
+    background-color: #e8ba40;
+    color: #040403;
+    padding: 0.5rem;
+}
+/*calendar page img styling */
+main .workshop{
+    max-width: 600px;
+    max-height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* contact page styling */
+main h2 { 
+    text-align: center; 
+}
+
+form { 
+    text-align: center;
+    border: 0.5rem dotted #B1863B;
+    height: 16rem;
+    border-radius: 5px;
+    background-color: #C4C2BB;
+    -webkit-background-clip: padding-box; 
+    -moz-background-clip: padding; 
+    background-clip: padding-box; 
+}
+
+label{ 
+    display: block;
+    padding: 1rem;
+}
+
+.submitBtn { 
+    display: block;
+    margin: 1rem auto auto 
+}
+/* .submitBtn:hover { 
+    background-color: ;
+ } */
