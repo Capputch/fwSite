@@ -104,13 +104,10 @@ nav .current {
     color: #e8ba40;
 }
 
-
 /* Column one and two styling */
 main .columns { 
     display: flex;
-    text-align: center;
     margin: 0;
-    align-content: flex-end;
     vertical-align: auto;
 }
  .columnOne {
@@ -128,10 +125,20 @@ blockquote{
     background-color:#844337;
     font-size: 1.2rem;
     padding: 1rem; 
+    border-radius: 25px;
 }
-
+blockquote p{ 
+    font-style: italic;
+}
 /* about page styling */
-
+.profile {
+    margin: 0; 
+    display: flex; 
+}
+.recital img { 
+    width: 200px;
+    height: 300px;
+}
 /* article page styling */
 article { 
     padding: 1rem;
@@ -141,7 +148,9 @@ article {
 .warning { 
     background-color: #e8ba40;
     color: #040403;
-    padding: 0.5rem;
+    padding: 1rem;
+    border-radius: 5%;
+
 }
 /*calendar page img styling */
 main .workshop{
@@ -152,6 +161,12 @@ main .workshop{
     margin-right: auto;
 }
 
+figcaption { 
+    font-weight: bold;
+    padding: 0.5rem;
+    text-align: center;
+}
+
 /* contact page styling */
 main h2 { 
     text-align: center; 
@@ -160,9 +175,10 @@ main h2 {
 form { 
     text-align: center;
     border: 0.5rem dotted #B1863B;
-    height: 16rem;
+    height: auto;
+    padding: 1rem;
     border-radius: 5px;
-    background-color: #C4C2BB;
+    background-color: #797b84;
     -webkit-background-clip: padding-box; 
     -moz-background-clip: padding; 
     background-clip: padding-box; 

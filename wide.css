@@ -8,15 +8,29 @@
   margin-right: auto;
 }
 
-
-
 /* main styling */
 main { 
   margin: 0 3rem 0;
-}
+  padding: 2rem; 
 
+}
 /* index styling */
 .columns {
   flex-flow: row;
-  align-content: space-between;
+  justify-content: space-around;
+}
+
+.columnOne { 
+  max-width: 45%;
+}
+
+.columnTwo{ 
+  max-width: 45%;
+}
+
+/* about styling */
+.recital { 
+  float: left;
+  clear: none;
+  padding: 1rem; 
 }

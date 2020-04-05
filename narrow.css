@@ -5,7 +5,27 @@
     display: block;
 }
 
-
+/* main styling */
+main {
+    padding: 0.5rem; 
+}
+/* index page styling */
 .columns{ 
     flex-flow: column nowrap;
+} 
+/* contact page styling */
+input { 
+    width: 10rem;
+}
+.message { 
+    width: 80%;
+    height: 10rem; 
+    margin: auto;
+}
+
+/* about styling */
+.recital { 
+    clear: both;
+    width: 100%;
+    text-align: center;
 }
